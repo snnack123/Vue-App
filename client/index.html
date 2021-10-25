@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Post Example</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>MANAGE PRODUCTS WITH AUTH</h1>
+
+
+  <div>
+    <h3>REGISTER</h3>
+    <form>
+      <input type="email" placeholder="Email" id="email">
+      <input type="password" placeholder="Password" id="password">
+      <button id="register">Submit Register</button>
+    </form>
+    <p id="registerResult"></p>
+  </div>
+
+
+  <div>
+    <h3>LOGIN</h3>
+
+    <form>
+      <input type="email" placeholder="Email" id="loginEmail">
+      <input type="password" placeholder="Password" id="loginPassword">
+      <button id="login">Submit Login</button>
+    </form>
+    <button id="logout" style="display: none;">Logout</button>
+    <p id="login-result"></p>
+  </div>
+
+
+  <div>
+    <h3>Add/Edit product</h3>
+    <p>To be added...</p>
+    <input type="text" id="productName" placeholder="Product Name">
+    <select id="productStatus">
+      <option>In Stock</option>
+      <option>Out Of Stock</option>
+    </select>
+    <button id="add-edit">Add</button>
+  </div>
+
+
+  <div>
+    <h3>Product list</h3>
+    <p id="products">To be added...</p>
+
+  </div>
+
+
+
+  <div>
+    <h3> Test various concepts</h3>
+    <h4>I want to see the secret</h4>
+    <button id="private"> Show big secret</button>
+    <p id="secret"></p>
+
+    <p>Send some data</p>
+    <form>
+      <input placeholder="Data" id="data">
+      <button id="submit">Send Data</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
