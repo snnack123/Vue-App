@@ -1,0 +1,12 @@
+h3 {
+  text-transform: uppercase;
+}
+
+.productRow {
+  display: flex;
+}
+
+.productRow p,
+.productRow button {
+  margin: 10px;
+}
